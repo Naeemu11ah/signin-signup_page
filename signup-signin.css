@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(210, 196, 238);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-div {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  background-color: white;
+  padding: 15px 0 15px 15px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+input {
+  height: 30px;
+  width: 290px;
+  border-radius: 6px;
+  margin-top: 10px;
+  padding-left: 4px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+}
+
+#Show {
+  width: 15px;
+  display: inline-block;
+  position: relative;
+  left: -50px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#Forgot {
+  display: block;
+  margin: 15px 0 10px;
+  text-align: center;
+}
+
+button {
+  color: white;
+  background-color: rgb(22, 22, 189);
+  font-size: 16px;
+  width: 290px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 10px 0 15px 7px;
+  cursor: pointer;
+}
+
+#signup,
+#Forgot {
+  text-decoration: none;
+  color: rgb(71, 71, 233);
+}
+
+.line {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.platforms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+.pic {
+  border: 1px solid rgba(0, 0, 0, 0.492);
+  padding: 3px 30px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.pic img {
+  width: 25px;
+  border-radius: 50%;
+}
+
+#p1 {
+  display: inline-block;
+  margin-top: 20px;
+}
